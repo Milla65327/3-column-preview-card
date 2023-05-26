@@ -1,0 +1,128 @@
+body {
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 70px;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 850px;
+    margin: 100px auto ;
+    
+}
+
+.box-1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px 36px;
+}
+
+.box-2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px 36px;
+}
+
+.box-3 {
+    background-color: hsl(179, 100%, 13%); 
+    padding: 50px 36px;
+}
+.btn-1 {
+    height:50px;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    
+}
+
+.btn-2 {
+    height:50px;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    
+    
+}
+.btn-2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn-3 {
+    height:50px;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    
+}
+.btn-3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+
+}
+footer {
+    margin: 100px auto 20px auto;
+    text-align: center;
+    padding: 0;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
+@media(max-width:599px) {
+    .container {
+    display: block;
+    width: 90%;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    .box-1 {
+        display: block;
+    }
+    .box-2 {
+        display: block;
+    }
+    .box-3 {
+        display: block;
+    }
+   
+}
