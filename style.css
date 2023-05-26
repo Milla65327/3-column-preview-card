@@ -1,5 +1,6 @@
 body {
     font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
 }
 h1 {
     font-family: 'Big Shoulders Display', cursive;
